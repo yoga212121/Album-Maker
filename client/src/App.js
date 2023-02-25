@@ -45,6 +45,7 @@ const App = () => {
     setImageList(responseJson.resources);
     setNextCursor(responseJson.next_cursor);
   }
+  
 
   return (<>
     <form className='form' onSubmit={loadSearchHandler}>
